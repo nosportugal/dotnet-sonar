@@ -6,6 +6,11 @@ It also allows you to run Docker in Docker using a docker.sock mount.
 
 ----
 
+> [!IMPORTANT]
+> This project has been transferred from a different GitHub organization. All history and context have been preserved. Images up to version `25.11.7` are also available at the [previous location](https://github.com/orgs/nosinovacao/packages/container/package/dotnet-sonar).
+
+----
+
 This latest image was built with the following components:
 
 * dotnetcore-sdk 10.0.100
