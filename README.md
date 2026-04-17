@@ -13,8 +13,8 @@ It also allows you to run Docker in Docker using a docker.sock mount.
 
 This latest image was built with the following components:
 
-* dotnetcore-sdk 8.0.420
-* dotnetcore-runtime 8.0.26 (required by Sonar-Scanner)
+* dotnetcore-sdk 9.0.313
+* dotnetcore-runtime 9.0.15 (required by Sonar-Scanner)
 * SonarQube MSBuild Scanner 11.2.1.137242
 * Docker binaries 24.0.x (for running Docker in Docker using the docker.sock mount)
 * OpenJDK Java Runtime 17 (required by Sonar-Scanner and some Sonar-Scanner plugins)
@@ -26,10 +26,10 @@ This latest image was built with the following components:
 
 * `25.11.7`, `latest10`, `25.11-dotnet10`, `latest` [(25.11.7/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/25.11.7/Dockerfile)
   * DotNet 10.0.100
-  * SonarScanner 11.0.0.126294
-* `25.11.6`, `latest9`, `25.11-dotnet9` [(25.11.6/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/25.11.6/Dockerfile)
-  * DotNet 9.0.307
-  * SonarScanner 11.0.0.126294
+  * SonarScanner 11.2.1.137242
+* `26.04.6`, `latest9`, `26.04-dotnet9` [(26.04.6/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.04.6/Dockerfile)
+  * DotNet 9.0.313
+  * SonarScanner 11.2.1.137242
 * `26.04.5`, `latest8`, `26.04-dotnet8` [(26.04.5/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.04.5/Dockerfile)
   * DotNet 8.0.420
   * SonarScanner 11.2.1.137242
@@ -45,6 +45,7 @@ This latest image was built with the following components:
 * `22.07.1`, `latest5` [(22.07.1/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/22.07.1/Dockerfile)
   * DotNet 5.0.408
   * SonarScanner 5.7.1.49528
+* `25.11.6` [(25.11.6/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/25.11.6/Dockerfile)
 * `25.11.5` [(25.11.5/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/25.11.5/Dockerfile)
 * `25.09.6` [(25.09.6/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/25.09.6/Dockerfile)
 * `25.09.5` [(25.09.5/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/25.09.5/Dockerfile)
