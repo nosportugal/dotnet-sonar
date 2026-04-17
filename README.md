@@ -13,9 +13,9 @@ It also allows you to run Docker in Docker using a docker.sock mount.
 
 This latest image was built with the following components:
 
-* dotnetcore-sdk 10.0.100
-* dotnetcore-runtime 10.0.0 (required by Sonar-Scanner)
-* SonarQube MSBuild Scanner 11.0.0.126294
+* dotnetcore-sdk 8.0.420
+* dotnetcore-runtime 8.0.26 (required by Sonar-Scanner)
+* SonarQube MSBuild Scanner 11.2.1.137242
 * Docker binaries 24.0.x (for running Docker in Docker using the docker.sock mount)
 * OpenJDK Java Runtime 17 (required by Sonar-Scanner and some Sonar-Scanner plugins)
 * NodeJS 20 (required by Sonar-Scanner web analysis plugins)
@@ -30,9 +30,9 @@ This latest image was built with the following components:
 * `25.11.6`, `latest9`, `25.11-dotnet9` [(25.11.6/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/25.11.6/Dockerfile)
   * DotNet 9.0.307
   * SonarScanner 11.0.0.126294
-* `25.11.5`, `latest8`, `25.11-dotnet8` [(25.11.5/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/25.11.5/Dockerfile)
-  * DotNet 8.0.416
-  * SonarScanner 11.0.0.126294
+* `26.04.5`, `latest8`, `26.04-dotnet8` [(26.04.5/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.04.5/Dockerfile)
+  * DotNet 8.0.420
+  * SonarScanner 11.2.1.137242
 > :warning: **[(THIS VERSION HAS REACHED END OF LIFE)](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)**
 * `24.11.3`, `latest6`, `24.11-dotnet6` [(24.11.3/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/24.11.3/Dockerfile)
   * DotNet 6.0.428-1
@@ -45,6 +45,7 @@ This latest image was built with the following components:
 * `22.07.1`, `latest5` [(22.07.1/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/22.07.1/Dockerfile)
   * DotNet 5.0.408
   * SonarScanner 5.7.1.49528
+* `25.11.5` [(25.11.5/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/25.11.5/Dockerfile)
 * `25.09.6` [(25.09.6/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/25.09.6/Dockerfile)
 * `25.09.5` [(25.09.5/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/25.09.5/Dockerfile)
 * `25.07.6` [(25.07.6/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/25.07.6/Dockerfile)
