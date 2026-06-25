@@ -1,29 +1,19 @@
-BSD 3-Clause License
+© 2026 NOS Group and its affiliated companies, including NOS Inovação, S.A. All rights reserved.
 
-Copyright (c) 2017, NOS Inovação
-All rights reserved.
+For the purposes of this notice, “NOS Group” means NOS, SGPS, S.A., its subsidiaries, affiliated companies, directly or indirectly controlled entities, and any other entities integrated into the NOS corporate group from time to time.
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
+This repository may contain proprietary software owned by or assigned to one or more companies within the NOS Group, including software developed by NOS Inovação, S.A. and/or other NOS Group entities, as well as third-party proprietary and open-source components, each subject to its respective licensing terms.
 
-* Redistributions of source code must retain the above copyright notice, this
-  list of conditions and the following disclaimer.
+Unless expressly authorized in writing by the relevant NOS Group company, any proprietary code owned by or assigned to a company within the NOS Group is confidential and intended solely for internal use within the NOS Group, including by its employees, officers, contractors, consultants, service providers and other third parties, provided that they are expressly authorized for such purpose.
 
-* Redistributions in binary form must reproduce the above copyright notice,
-  this list of conditions and the following disclaimer in the documentation
-  and/or other materials provided with the distribution.
+Any unauthorized external use, access, disclosure, copying, distribution, publication, reproduction, modification, reverse engineering, sublicensing, commercialization, or other exploitation of such proprietary code, in whole or in part, is strictly prohibited and is subject to enforcement to the fullest extent permitted by applicable law.
 
-* Neither the name of the copyright holder nor the names of its
-  contributors may be used to endorse or promote products derived from
-  this software without specific prior written permission.
+Access to and use of this repository are subject to applicable internal policies, confidentiality obligations, information security requirements, and any contractual or legal restrictions applicable to the relevant users or entities.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Nothing in this notice shall be construed as granting any rights or licenses, whether express, implied, by estoppel, or otherwise, in or to any intellectual property rights of any NOS Group company, except as expressly authorized in writing by the relevant rights holder.
+
+If you have accessed this repository or its contents without authorization, or become aware of any unauthorized access by a third party, you should immediately cease access, delete any copies in your possession or control, and inform the NOS Group at <github.operations@nos.pt> without undue delay.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, AVAILABILITY, SECURITY, OR ERROR-FREE OPERATION. WITHOUT LIMITING THE FOREGOING, NO WARRANTY IS GIVEN THAT THE SOFTWARE WILL BE FREE FROM BUGS, DEFECTS, VULNERABILITIES, INTERRUPTIONS, OR MALICIOUS COMPONENTS, OR THAT ANY SUCH ISSUES WILL BE CORRECTED.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL ANY NOS GROUP COMPANY, OR ANY OF ITS DIRECTORS, EMPLOYEES, CONTRACTORS, OR REPRESENTATIVES, BE LIABLE FOR ANY CLAIM, DAMAGES, LOSSES, OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OF, ACCESS TO, OR OTHER DEALINGS IN THE SOFTWARE, WHETHER AUTHORIZED OR UNAUTHORIZED.”
