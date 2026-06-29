@@ -13,8 +13,8 @@ It also allows you to run Docker in Docker using a docker.sock mount.
 
 This latest image was built with the following components:
 
-* dotnetcore-sdk 8.0.422
-* dotnetcore-runtime 8.0.28 (required by Sonar-Scanner)
+* dotnetcore-sdk 9.0.315
+* dotnetcore-runtime 9.0.17 (required by Sonar-Scanner)
 * SonarQube MSBuild Scanner 11.2.1.137242
 * Docker binaries 24.0.x (for running Docker in Docker using the docker.sock mount)
 * OpenJDK Java Runtime 21 (required by Sonar-Scanner and some Sonar-Scanner plugins)
@@ -27,8 +27,8 @@ This latest image was built with the following components:
 * `26.04.7`, `latest10`, `26.04-dotnet10`, `latest` [(26.04.7/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.04.7/Dockerfile)
   * DotNet 10.0.202
   * SonarScanner 11.2.1.137242
-* `26.04.6`, `latest9`, `26.04-dotnet9` [(26.04.6/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.04.6/Dockerfile)
-  * DotNet 9.0.313
+* `26.06.6`, `latest9`, `26.06-dotnet9` [(26.06.6/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.06.6/Dockerfile)
+  * DotNet 9.0.315
   * SonarScanner 11.2.1.137242
 * `26.06.5`, `latest8`, `26.06-dotnet8` [(26.06.5/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.06.5/Dockerfile)
   * DotNet 8.0.422
@@ -45,6 +45,7 @@ This latest image was built with the following components:
 * `22.07.1`, `latest5` [(22.07.1/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/22.07.1/Dockerfile)
   * DotNet 5.0.408
   * SonarScanner 5.7.1.49528
+* `26.04.6` [(26.04.6/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.04.6/Dockerfile)
 * `26.04.5` [(26.04.5/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.04.5/Dockerfile)
 * `25.11.7` [(25.11.7/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/25.11.7/Dockerfile)
 * `25.11.6` [(25.11.6/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/25.11.6/Dockerfile)
