@@ -1,16 +1,16 @@
-FROM mcr.microsoft.com/dotnet/sdk:10.0.202
+FROM mcr.microsoft.com/dotnet/sdk:10.0.301
 
 # Dockerfile meta-information
 LABEL maintainer="NOS Inovação S.A." \
     app_name="dotnet-sonar"
 
 ENV SONAR_SCANNER_MSBUILD_VERSION=11.2.1.137242 \
-    DOTNETCORE_SDK=10.0.202 \
-    DOTNETCORE_RUNTIME=10.0.6 \
+    DOTNETCORE_SDK=10.0.301 \
+    DOTNETCORE_RUNTIME=10.0.9 \
     NETAPP_VERSION=net \
     DOCKER_VERSION=5:28.5.2-1~ubuntu.24.04~noble \
     CONTAINERD_VERSION=1.7.29-1~ubuntu.24.04~noble \
-    OPENJDK_VERSION=17 \
+    OPENJDK_VERSION=21 \
     NODEJS_VERSION=20
 
 # Linux update
