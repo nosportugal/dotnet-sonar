@@ -13,8 +13,8 @@ It also allows you to run Docker in Docker using a docker.sock mount.
 
 This latest image was built with the following components:
 
-* dotnetcore-sdk 8.0.427
-* dotnetcore-runtime 8.0.33 (required by Sonar-Scanner)
+* dotnetcore-sdk 9.0.320
+* dotnetcore-runtime 9.0.22 (required by Sonar-Scanner)
 * SonarQube MSBuild Scanner 12.0.0.12728
 * Docker binaries 24.0.x (for running Docker in Docker using the docker.sock mount)
 * OpenJDK Java Runtime 21 (required by Sonar-Scanner and some Sonar-Scanner plugins)
@@ -27,8 +27,8 @@ This latest image was built with the following components:
 * `26.10.7`, `latest10`, `26.10-dotnet10`, `latest` [(26.10.7/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.10.7/Dockerfile)
   * DotNet 10.0.402
   * SonarScanner 12.0.0.12728
-* `26.10.6`, `latest9`, `26.10-dotnet9` [(26.10.6/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.10.6/Dockerfile)
-  * DotNet 9.0.319
+* `26.10.6-security-patch`, `latest9-security-patch`, `26.10-dotnet9-security-patch` [(26.10.6-security-patch/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.10.6-security-patch/Dockerfile)
+  * DotNet 9.0.320
   * SonarScanner 12.0.0.12728
 * `26.10.5-security-patch`, `latest8-security-patch`, `26.10-dotnet8-security-patch` [(26.10.5-security-patch/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.10.5-security-patch/Dockerfile)
   * DotNet 8.0.427
@@ -45,6 +45,7 @@ This latest image was built with the following components:
 * `22.07.1`, `latest5` [(22.07.1/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/22.07.1/Dockerfile)
   * DotNet 5.0.408
   * SonarScanner 5.7.1.49528
+* `26.10.6` [(26.10.6/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.10.6/Dockerfile)
 * `26.10.5` [(26.10.5/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.10.5/Dockerfile)
 * `26.09.7` [(26.09.7/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.09.7/Dockerfile)
 * `26.09.6` [(26.09.6/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.09.6/Dockerfile)
