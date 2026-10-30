@@ -1,17 +1,21 @@
-FROM mcr.microsoft.com/dotnet/sdk:10.0.402
+FROM mcr.microsoft.com/dotnet/sdk:8.0.427
 
 # Dockerfile meta-information
 LABEL maintainer="NOS Inovação S.A." \
     app_name="dotnet-sonar"
 
 ENV SONAR_SCANNER_MSBUILD_VERSION=12.0.0.12728 \
-    DOTNETCORE_SDK=10.0.402 \
-    DOTNETCORE_RUNTIME=10.0.13 \
+    DOTNETCORE_SDK=8.0.427 \
+    DOTNETCORE_RUNTIME=8.0.33 \
     NETAPP_VERSION=net \
-    DOCKER_VERSION=5:28.5.2-1~ubuntu.24.04~noble \
-    CONTAINERD_VERSION=1.7.29-1~ubuntu.24.04~noble \
+    DOCKER_VERSION=5:24.0.7-1~debian.12~bookworm \
+    CONTAINERD_VERSION=1.6.25-1 \
     OPENJDK_VERSION=21 \
     NODEJS_VERSION=24
+
+# Add Adoptium (Eclipse Temurin) repository for OpenJDK 21
+RUN wget -O - https://packages.adoptium.net/artifactory/api/gpg/key/public | tee /etc/apt/keyrings/adoptium.asc > /dev/null \
+    && echo "deb [signed-by=/etc/apt/keyrings/adoptium.asc] https://packages.adoptium.net/artifactory/deb bookworm main" | tee /etc/apt/sources.list.d/adoptium.list > /dev/null
 
 # Linux update
 RUN apt-get update \
@@ -38,7 +42,7 @@ ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 
 # Install Java
-RUN apt-get install -y openjdk-$OPENJDK_VERSION-jre
+RUN apt-get install -y temurin-$OPENJDK_VERSION-jre
 
 # Install NodeJs
 RUN wget https://deb.nodesource.com/setup_$NODEJS_VERSION.x \
@@ -48,9 +52,9 @@ RUN wget https://deb.nodesource.com/setup_$NODEJS_VERSION.x \
 
 # Install all necessary additional software
 RUN mkdir -p /etc/apt/keyrings \
-    && curl -fsSL https://download.docker.com/linux/ubuntu/gpg | gpg --dearmor -o /etc/apt/keyrings/docker.gpg \
+    && curl -fsSL https://download.docker.com/linux/debian/gpg | gpg --dearmor -o /etc/apt/keyrings/docker.gpg \
     && echo \
-        "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+        "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian \
         $(lsb_release -cs) stable" | tee /etc/apt/sources.list.d/docker.list > /dev/null \
     && apt-get update \
     && apt-get install -y \
