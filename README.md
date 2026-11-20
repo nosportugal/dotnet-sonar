@@ -13,8 +13,8 @@ It also allows you to run Docker in Docker using a docker.sock mount.
 
 This latest image was built with the following components:
 
-* dotnetcore-sdk 8.0.428
-* dotnetcore-runtime 8.0.34 (required by Sonar-Scanner)
+* dotnetcore-sdk 9.0.321
+* dotnetcore-runtime 9.0.23 (required by Sonar-Scanner)
 * SonarQube MSBuild Scanner 12.1.0.12898
 * Docker binaries 24.0.x (for running Docker in Docker using the docker.sock mount)
 * OpenJDK Java Runtime 21 (required by Sonar-Scanner and some Sonar-Scanner plugins)
@@ -27,9 +27,10 @@ This latest image was built with the following components:
 * `26.10.7-security-patch`, `latest10-security-patch`, `26.10-dotnet10-security-patch`, `latest-security-patch` [(26.10.7-security-patch/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.10.7-security-patch/Dockerfile)
   * DotNet 10.0.403
   * SonarScanner 12.0.0.12728
-* `26.10.6-security-patch`, `latest9-security-patch`, `26.10-dotnet9-security-patch` [(26.10.6-security-patch/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.10.6-security-patch/Dockerfile)
-  * DotNet 9.0.320
-  * SonarScanner 12.0.0.12728
+> :warning: **[(THIS VERSION HAS REACHED END OF LIFE)](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)**
+* `26.11.6`, `latest9`, `26.11-dotnet9` [(26.11.6/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.11.6/Dockerfile)
+  * DotNet 9.0.321
+  * SonarScanner 12.1.0.12898
 > :warning: **[(THIS VERSION HAS REACHED END OF LIFE)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)**
 * `26.11.5`, `latest8`, `26.11-dotnet8` [(26.11.5/Dockerfile)](https://github.com/nosinovacao/dotnet-sonar/blob/26.11.5/Dockerfile)
   * DotNet 8.0.428
